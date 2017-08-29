@@ -1,0 +1,36 @@
+git init => Iniciar
+
+git status => status
+
+git add <nombre> (wilcards = *)
+
+git help
+
+git commit -m "mensaje" {
+	#Descripcion (nom de proy ":" actividad)
+	+Add
+	-Delete
+	#Udpate
+}
+
+git config --global --list => ver
+
+git config --list
+
+git config --global (user.name = ""; user.email = "")
+
+git remote add origin ""
+
+git remote --verbose (te pone que tienes como origin)
+
+git push [remote/origin] | [branch/master]
+
+git fetch [remote/origin] | [branch/master]
+
+git pull  [remote/origin] | [branch/master]
+
+git merge [poner branch el cual quiero unir al actual]
+
+git branch [nombre] => te dice que en que branch estas [creas el branch especificado]
+
+git checkout [nom de branch] => te posicionas en el branch especificado
